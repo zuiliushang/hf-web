@@ -46,6 +46,55 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-.mk-banner {
-    height: 40vh;
+.mk-index-banner{
+    margin-top: 2.5rem;
+}
+.mk-index-banner .carousel-item{
+    height: 42vh;
+}
+.mk-index-banner img{
+    border-radius: 3px;
+}
+.mk-header-height {
+    font-size: 1.2rem;
+    margin: .3rem 0;
+    height: 2.2rem;
+    line-height: 2.2rem;
+}
+.mk-header-height .align-items-center{
+    height: inherit;
+}
+.notice-div{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.mk-alert{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.mk-alert p{
+    height: 1.7rem;
+    line-height: 1.7rem;
+    color: #666;
+}
+.mk-alert .alert-content a,a:hover{
+    color: #666;
+    text-decoration: none;
+}
+.mk-alert span{
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../image/alert.png");
+    width: 1.7rem;
+    height: 1.7rem;
+}
+.mk-index-wrapper{
+    border-bottom: 1px solid #e6e6e6;
+}
+.mk-section h1 {
+    margin: 15px 0;
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: bold;
 }

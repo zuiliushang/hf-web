@@ -31,3 +31,16 @@
     }
     window.$_ajax = $_ajax;
 })(window,jQuery);
+
+(function ($,global) {
+    'use strict';
+    console.log("a");
+    $('#adminCollapse').on('hidden.bs.collapse', function () {
+        console.log('ok')
+        $('#adminController').text("展开");
+    });
+    $('#adminCollapse').on('shown.bs.collapse', function () {
+        console.log('ok')
+        $('#adminController').text("收起");
+    });
+})(jQuery,window);
